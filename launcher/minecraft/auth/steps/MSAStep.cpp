@@ -141,7 +141,9 @@ void MSAStep::onOAuthActivityChanged(Katabasis::Activity activity) {
         }
         case Katabasis::Activity::FailedHard: {
             emit hideVerificationUriAndCode();
-            emit finished(AccountTaskState::STATE_FAILED_HARD, tr("Microsoft user authentication failed."));
+            //deleting cuz drm
+            //emit finished(AccountTaskState::STATE_FAILED_HARD, tr("Microsoft user authentication failed."));
+            emit finished(AccountTaskState::STATE_OFFLINE, tr("Edited by kevin: Microsoft user authentication ended with a network error."));
             return;
         }
         default: {
