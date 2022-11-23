@@ -2,6 +2,7 @@
 <img src="./program_info/polymc-header-black.svg#gh-light-mode-only" alt="PolyMC logo" width="50%"/>
 <img src="./program_info/polymc-header.svg#gh-dark-mode-only" alt="PolyMC logo" width="50%"/>
 </p>
+fyi i know how crappy my markdown is
 Hi!
 This is a small modification of vanilla PolyMC that makes it cracked. I update thisevery few weeks and the crack is from [here](https://github.com/thecountrox/PolyMC-Cracked). The repo is super out of date, so I just forked main polymc and removed drm. 
 Credits:
