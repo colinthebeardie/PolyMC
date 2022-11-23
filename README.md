@@ -2,7 +2,15 @@
 <img src="./program_info/polymc-header-black.svg#gh-light-mode-only" alt="PolyMC logo" width="50%"/>
 <img src="./program_info/polymc-header.svg#gh-dark-mode-only" alt="PolyMC logo" width="50%"/>
 </p>
+Hi!
+This is a small modification of vanilla PolyMC that makes it cracked. I update thisevery few weeks and the crack is from [here](https://github.com/thecountrox/PolyMC-Cracked). The repo is super out of date, so I just forked main polymc and removed drm. 
+Credits:
+@TheCountrux
+remove drm
 
+PolyMC team
+NOTICE: I do not support cracking, this is for educational and demonstrational purposes. I only am doing this because I bought minecraft bedrock on five devices already and am NOT going to shell out another 30 bucks to MICROSOFT CORP.
+Original readme:
 PolyMC is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.
 
 This is a **fork** of the MultiMC Launcher and not endorsed by MultiMC.
