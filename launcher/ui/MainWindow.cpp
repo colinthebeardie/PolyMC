@@ -1605,10 +1605,11 @@ void MainWindow::setCatBackground(bool enabled)
         QDateTime xmas(QDate(now.date().year(), 12, 25), QTime(0, 0));
 
         QString cat = "default";
-        if(APPLICATION->settings()->get("CatStyle").toString() == "Jinx")
-        {
+        QString catStyleOpt = APPLICATION->settings()->get("CatStyle").toString();
+        if(catStyleOpt == "Floppa")
+            cat = "floppa";
+        else if(catStyleOpt == "Jinx")
             cat = "jinx";
-        }
 
         if(non_stupid_abs(now.daysTo(xmas)) <= 4) {
             cat += "Catmas";
@@ -1619,16 +1620,21 @@ void MainWindow::setCatBackground(bool enabled)
         else {
             cat += "Cat";
         }
+
+        auto cat_position = APPLICATION->settings()->get("CatPosition").toString().toLower().trimmed();
+        if (cat_position != "top left" && cat_position != "bottom left" && cat_position != "bottom right" && cat_position != "top right")
+          cat_position = "top right";
+
         view->setStyleSheet(QString(R"(
 InstanceView
 {
     background-image: url(:/backgrounds/%1);
     background-attachment: fixed;
     background-clip: padding;
-    background-position: top right;
+    background-position: %2;
     background-repeat: none;
     background-color:palette(base);
-})").arg(cat));
+})").arg(cat, cat_position));
     }
     else
     {
