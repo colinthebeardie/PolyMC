@@ -12,8 +12,8 @@ Original readme:<br />
 PolyMC is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.
 <br />
 This is a **fork** of the MultiMC Launcher and not endorsed by MultiMC.<br />
-[wiki](https://polymc.org/wiki/overview/faq/)<br />
-  [Download](https://nightly.link/colinthebeardie/PolyMC/workflows/trigger_builds/develop)
+Wiki: <https://polymc.org/wiki/overview/faq/><br />
+  Download:<https://nightly.link/colinthebeardie/PolyMC/workflows/trigger_builds/develop/>
   </p>
 <br>
 
