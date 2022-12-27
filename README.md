@@ -1,21 +1,20 @@
+# IMPORTANT
+<p>
+  DON'T USE POLYMC!!! IF YOU WANT A BETTER LAUNCHER \(that isn't being maintained by a jerk\), go to [here](https://github.com/colinthebeardie/PrismLauncher)
+</p>
 <p align="center">
 <img src="./program_info/polymc-header-black.svg#gh-light-mode-only" alt="PolyMC logo" width="50%"/>
 <img src="./program_info/polymc-header.svg#gh-dark-mode-only" alt="PolyMC logo" width="50%"/>
 </p>
-fyi i know how crappy my markdown is
-Hi!
-This is a small modification of vanilla PolyMC that makes it cracked. I update thisevery few weeks and the crack is from [here](https://github.com/thecountrox/PolyMC-Cracked). The repo is super out of date, so I just forked main polymc and removed drm. 
-Credits:
-@TheCountrux
-remove drm
-
-PolyMC team
-NOTICE: I do not support cracking, this is for educational and demonstrational purposes. I only am doing this because I bought minecraft bedrock on five devices already and am NOT going to shell out another 30 bucks to MICROSOFT CORP.
-Original readme:
+<p>
+NOTICE: I do not support cracking, this is for educational and demonstrational purposes. I only am doing this because I bought minecraft bedrock on five devices already and am NOT going to shell out another 30 bucks to MICROSOFT CORP.<br />
+Original readme:<br />
 PolyMC is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.
-
-This is a **fork** of the MultiMC Launcher and not endorsed by MultiMC.
-If you want to read about why this fork was created, check out [our FAQ page](https://polymc.org/wiki/overview/faq/).
+<br />
+This is a **fork** of the MultiMC Launcher and not endorsed by MultiMC.<br />
+[wiki](https://polymc.org/wiki/overview/faq/)<br />
+  [Download](https://nightly.link/colinthebeardie/PolyMC/workflows/trigger_builds/develop)
+  </p>
 <br>
 
 # Installation
